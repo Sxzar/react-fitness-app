@@ -23,7 +23,7 @@ const HeroBanner = () => {
                 mb="24px"
                 mt="30px"
             >
-                Sweatm, Smile <br /> and Repeat
+                Sweat, Smile <br /> and Repeat
             </Typography>
             <Typography fontSize="22px" lineHeight="35px" mb={4}>
                 Check out the most effective exercises
