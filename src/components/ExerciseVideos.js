@@ -1,8 +1,9 @@
 import { Box, Stack, Typography } from "@mui/material";
 import React from "react";
+import Loader from "./Loader";
 
 const ExerciseVideos = ({ exerciseVideos, name }) => {
-    if (!exerciseVideos.length) return "Loading...";
+    if (!exerciseVideos.length) return <Loader />;
     return (
         <Box sx={{ marginTop: { lg: "200px", xs: "20px" } }} p="20px">
             <Typography variant="h4" mb="33px">
